@@ -6,8 +6,8 @@ sources:
     name: Snowflake
     type: snowflake
 destinations:
+  'null':
+    type: googleSheetsSA
   hightouch-po-c-2:
     name: Hightouch PoC
-    type: googleSheetsSA
-  'null':
     type: googleSheetsSA
