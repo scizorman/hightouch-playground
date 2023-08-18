@@ -1,4 +1,4 @@
-name: HIGHTOUCH_TEST
+name: Hightouch test by table
 source: snowflake
 type: table
 tableName: WORKSPACE_ZGOK.HIGHTOUCH_TEST
