@@ -1,0 +1,13 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  snowflake:
+    name: Snowflake
+    type: snowflake
+destinations:
+  hightouch-po-c-2:
+    name: Hightouch PoC
+    type: googleSheetsSA
+  'null':
+    type: googleSheetsSA
