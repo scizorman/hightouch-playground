@@ -6,6 +6,12 @@ config:
     - to: TEST
       from: TEST
       type: standard
+    - to: HIGHTOUCH_MODEL_ID
+      type: variable
+      variable: model-id
+    - to: HIGHTOUCH_MODEL_NAME
+      type: variable
+      variable: model-name
     - to: HIGHTOUCH_SYNC_ID
       type: variable
       variable: sync-id
