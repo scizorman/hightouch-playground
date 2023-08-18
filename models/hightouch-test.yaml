@@ -1,5 +1,0 @@
-name: HIGHTOUCH_TEST
-source: snowflake
-type: table
-tableName: WORKSPACE_ZGOK.HIGHTOUCH_TEST
-primaryKey: TEST
