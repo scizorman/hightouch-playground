@@ -1,0 +1,31 @@
+model: hightouch-test-by-table
+destination: hightouch-po-c-2
+config:
+  mode: mirror
+  mappings:
+    - to: TEST
+      from: TEST
+      type: standard
+    - to: HIGHTOUCH_MODEL_ID
+      type: variable
+      variable: model-id
+    - to: HIGHTOUCH_MODEL_NAME
+      type: variable
+      variable: model-name
+    - to: HIGHTOUCH_SYNC_ID
+      type: variable
+      variable: sync-id
+    - to: HIGHTOUCH_SYNC_RUN_ID
+      type: variable
+      variable: sync-run-id
+    - to: HIGHTOUCH_SYNCED_AT
+      type: variable
+      variable: current-timestamp
+  sheetName: HIGHTOUCH_TEST
+  configVersion: 1
+  spreadsheetId: 1S9zJ1_95nfGYyBl5xLr4eogYY078O7xNZ61yYZrWOWQ
+  sheetSelection: select
+  autoSyncColumns: false
+schedule:
+  type: manual
+schedulePaused: false
