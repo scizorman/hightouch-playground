@@ -6,9 +6,6 @@ sources:
     name: Snowflake
     type: snowflake
 destinations:
-  google-sheets-service-account:
-    name: Google Sheets (Service Account)
-    type: googleSheetsSA
   hightouch-po-c-2:
     name: Hightouch PoC
     type: googleSheetsSA
