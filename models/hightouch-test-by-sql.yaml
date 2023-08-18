@@ -1,5 +1,4 @@
 name: Hightouch test by SQL
 source: snowflake
 type: raw_sql
-rawsql: 'select test from prep.workspace_zgok.hightouch_test'
 primaryKey: TEST
